@@ -12,5 +12,6 @@ model Guestbook {
   id String @id @default(uuid())
   message String
   username String
+  created_at DateTime @default(now())
   creater_at DateTime @default(now())
 }
