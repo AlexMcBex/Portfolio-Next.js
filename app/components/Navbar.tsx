@@ -24,13 +24,19 @@ export default function Navbar() {
                                 </div>
                                 {/* links right */}
                                 <div className="hidden sm:ml-6 sm:flex sm:space-x-8 sm:items-center">
-                                    <Link href="/" prefetch className={`${pathname === "/" ? 'border-teal-500 dark:text-white h-full inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium' : 'border-transparent text-gray-500 dark:text-gray-300 dark:hover:text-thite inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium'}`}>
+                                    <Link href="/" prefetch className={`${pathname === "/" 
+                                    ? 'border-teal-500 dark:text-white h-full inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium' 
+                                    : 'border-transparent text-gray-500 dark:text-gray-300 dark:hover:text-white inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium'}`}>
                                         Home
                                     </Link>
-                                    <Link href="/guestbook" prefetch className={`${pathname === "/guestbook" ? 'border-teal-500 dark:text-white h-full inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium' : 'border-transparent text-gray-500 dark:text-gray-300 dark:hover:text-thite inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium'}`}>
+                                    <Link href="/guestbook" prefetch className={`${pathname === "/guestbook" 
+                                    ? 'border-teal-500 dark:text-white h-full inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium' 
+                                    : 'border-transparent text-gray-500 dark:text-gray-300 dark:hover:text-white inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium'}`}>
                                         Guestbook
                                     </Link>
-                                    <Link href="/projects" prefetch className={`${pathname === "/projects" ? 'border-teal-500 dark:text-white h-full inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium' : 'border-transparent text-gray-500 dark:text-gray-300 dark:hover:text-thite inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium'}`}>
+                                    <Link href="/projects" prefetch className={`${pathname === "/projects" 
+                                    ? 'border-teal-500 dark:text-white h-full inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium'
+                                     : 'border-transparent text-gray-500 dark:text-gray-300 dark:hover:text-white inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium'}`}>
                                         Projects
                                     </Link>
                                 </div>
