@@ -29,7 +29,7 @@ export default  async function GuestBook() {
                     <div className="flex flex-col space-y-2">
             {data.map((entry) => (
               <div key={entry.id} className="w-full text-sm break-words">
-                {entry.message}
+              {entry.message}
               </div>
             ))}
           </div>

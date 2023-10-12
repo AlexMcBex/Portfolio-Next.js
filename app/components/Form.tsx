@@ -1,14 +1,17 @@
 "use client"
 
-import { PostEntry } from "./action"
+import { useRef } from "react"
+import { PostEntry } from "../action"
 
 export default function Form(){
-
+        const formRef = useRef<HTMLFormElement>(null)
     return(
         <form 
         action={async (formData)=>{
             await PostEntry(formData)
+            formRef.current?.reset()
         } }
+        ref={formRef}
         className="relative flex items-center text-sm mb-5">
             <input 
             type="text"
