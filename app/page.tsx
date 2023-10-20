@@ -63,7 +63,7 @@ export default function Home() {
               </svg>
             </a>
             <a
-              href=""
+              href='/Alessio Belli - resume.pdf'
               target="_blank"
             >
               <svg
