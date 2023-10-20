@@ -28,6 +28,8 @@ async function getProjects() {
     return data
 }
 
+export const revalidate = 60
+
 export default async function Projects() {
 
     // Data is defined as interface above
