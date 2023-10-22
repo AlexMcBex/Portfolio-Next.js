@@ -21,7 +21,7 @@ export default function Home() {
             Alex Belli
           </h3>
           <p className="text-gray-500 dark:text-gray-300 text-center">
-            Hi, I'm Alessio and I'm a Full Stack Developer
+            Full Stack Developer
           </p>
 
           <div className="flex space-x-5 pt-6">
