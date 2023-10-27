@@ -47,7 +47,7 @@ export default async function Projects() {
 
             <div className="grid gap-y-8 sm:gap-6  sm:grid-cols-2 md:gap-6 lg:grid-cols-3 lg:gap-10 pt-8">
                 {data.map((project) => (
-                    <article key={project._id} className="overflow-hidden dark:border-zinc-600 rounded-lg border border-gray-100 bg-white shadow-lg dark:bg-black dark:shadow-gray-700 shadow-teal-100">
+                    <article key={project._id} className="overflow-hidden dark:border-zinc-600 rounded-lg border border-gray-100 bg-white shadow-lg dark:bg-black dark:shadow-gray-700 shadow-sky-100">
                         <div className="h-56 w-full relative">
                             <Image
                                 fill
@@ -64,7 +64,7 @@ export default async function Projects() {
                                 <p className="mt-2 text-sm leading-relaxed text-gray-500 dark:text-gray-400 line-clamp-3">
                                     {project.overview}
                                 </p>
-                                <a href={project.link} target="_blank" className="group mt-4 inline-flex items-center gap-1 text-sm font-medium text-teal-500">
+                                <a href={project.link} target="_blank" className="group mt-4 inline-flex items-center gap-1 text-sm font-medium text-sky-500">
                                     Learn More
                                     <span className="block transition-all group-hover:ms-0.5">&rarr;</span>
                                 </a>
